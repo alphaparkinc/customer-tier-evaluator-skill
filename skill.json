@@ -1,8 +1,8 @@
 {
   "name": "customer-tier-evaluator-skill",
   "version": "1.0.0",
-  "description": "Calculates customer lifetime value levels to segment profiles based on Recency, Frequency, and Monetary parameters (RFM model).",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Calculates customer lifetime value levels to segment profiles based on Recency, Frequency, and Monetary parameters (RFM model).",
+  "author": "genpark",
   "category": "analytics",
   "tags": [
     "rfm",
