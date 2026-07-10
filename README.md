@@ -1,4 +1,4 @@
-# customer-tier-evaluator-skill
+# genpark-customer-tier-evaluator-skill
 
 > **GenPark AI Agent Skill** -- RFM customer database segmentation analyzer.
 
