@@ -1,0 +1,40 @@
+{
+  "name": "customer-tier-evaluator-skill",
+  "version": "1.0.0",
+  "description": "Calculates customer lifetime value levels to segment profiles based on Recency, Frequency, and Monetary parameters (RFM model).",
+  "author": "alphaparkinc",
+  "category": "analytics",
+  "tags": [
+    "rfm",
+    "customer-segmentation",
+    "analytics",
+    "retention",
+    "marketing"
+  ],
+  "inputs": {
+    "days_since_last_purchase": {
+      "type": "integer",
+      "description": "Recency: days since last order."
+    },
+    "total_orders": {
+      "type": "integer",
+      "description": "Frequency: total lifetime orders count."
+    },
+    "total_spend_usd": {
+      "type": "number",
+      "description": "Monetary: lifetime spend amount."
+    }
+  },
+  "outputs": {
+    "rfm_score": {
+      "type": "string",
+      "description": "Calculated score tier (e.g. 555, 111)."
+    },
+    "segment_name": {
+      "type": "string",
+      "description": "Assigned cohort group name (e.g. Champion, Churn Risk)."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
